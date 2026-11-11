@@ -7,7 +7,7 @@ Turning raw, messy data into clean pipelines and dashboards that teams actually 
 
 <br>
 
-### 🌐 [**👉 Click Here to View My Live Interactive Portfolio 👈**](https://seraaag1.github.io) 🌐
+### 🌐 [** Click Here to View My Live Interactive Portfolio **](https://seraaag1.github.io) 🌐
 
 <br>
 
