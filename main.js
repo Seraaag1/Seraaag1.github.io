@@ -13,16 +13,16 @@
   var M = function (p) { return CDN + p; };
 
   var PROJECTS = [
-    {
+{
       id: 'luster',
       cats: ['powerbi', 'client'],
       badge: { en: 'Client project', ar: 'مشروع لعميل' },
       title: { en: 'LUSTER — Inventory & Consumption Dashboard', ar: 'LUSTER — داشبورد المخزون والاستهلاك' },
       desc: {
-        en: 'Five-page Power BI dashboard built from an Excel stock sheet. Tracks film rolls (PPF, tints, protection): available meters, low-stock and finished rolls, stagnant inventory ageing and consumption per job order — 367 rolls and 4,949 m consumed across 402 job orders.',
-        ar: 'داشبورد Power BI من 5 صفحات مبني على شيت مخزون Excel. يتابع رولات الأفلام (PPF والتِنتات والحماية): الأمتار المتاحة، الرولات منخفضة المخزون والمنتهية، تقادم المخزون الراكد واستهلاك كل أمر تشغيل — 367 رول و4,949 متر مستهلك عبر 402 أمر تشغيل.'
+        en: '<strong>Objective:</strong> Track film rolls (PPF, tints) inventory and precise consumption per job order.<br><br><strong>Challenge:</strong> Managing 367 rolls across 402 job orders, tracking stagnant inventory and low-stock alerts from complex multi-sheet Excel files.<br><br><strong>Solution:</strong> Utilized Python scripts to clean data and extract job order comments, then built a 5-page Power BI dashboard using DAX and a custom dark UI.<br><br><strong>Impact:</strong> Clear visibility over 4,949m of consumed material, instant low-stock alerts, and fast error detection at the click of a button.',
+        ar: '<strong>الهدف:</strong> تتبع استهلاك رولات الأفلام (PPF وتظليل) وجرد المخازن بشكل دقيق.<br><br><strong>التحدي:</strong> إدارة ومراقبة 367 رول متوزعين على 402 أمر تشغيل، وتتبع الرولات الراكدة واللي قربت تخلص من شيتات إكسيل معقدة.<br><br><strong>الحل التقني:</strong> استخدمت Python Scripts لتنظيف الداتا وسحب التعليقات المخفية، وبنيت داشبورد Power BI من 5 صفحات بمعادلات DAX متقدمة وتصميم Custom UI داكن.<br><br><strong>النتيجة:</strong> القدرة على مراقبة استهلاك 4,949 متر بدقة، واكتشاف النواقص وأخطاء الإدخال بضغطة زرار.'
       },
-      tools: ['Power BI', 'DAX', 'Power Query', 'Excel'],
+      tools: ['Power BI', 'DAX', 'Python', 'Excel'],
       shots: [
         { src: 'luster-home.png', t: { en: 'Landing page with custom navigation', ar: 'صفحة البداية مع تنقل مخصص' } },
         { src: 'luster-overview.png', t: { en: 'Overview — stock, new rolls and input errors', ar: 'نظرة عامة — المخزون والرولات الجديدة وأخطاء الإدخال' } },
@@ -38,10 +38,10 @@
       badge: { en: 'Internship project', ar: 'مشروع التدريب' },
       title: { en: 'Alf Maskan Branch — Retail Performance', ar: 'فرع ألف مسكن — أداء المبيعات' },
       desc: {
-        en: 'Built during my summer training inside the Dream 2000 retail sales team. Shows branch target vs achieved (48.5% of a $33.4M target), team ranking, weakest categories and a colour-coded drill-down table so the team can see where to focus first.',
-        ar: 'اتبنى خلال التدريب الصيفي جوه فريق مبيعات Dream 2000. بيعرض تارجت الفرع مقابل المحقق (48.5% من تارجت 33.4 مليون$)، ترتيب الفريق، أضعف الفئات، وجدول تفصيلي بألوان الأداء عشان الفريق يعرف يركّز على إيه الأول.'
+        en: '<strong>Objective:</strong> Analyze retail sales performance for the Alf Maskan branch against targets.<br><br><strong>Challenge:</strong> Raw sales data needed processing to clearly highlight weakest categories and individual team member performance.<br><br><strong>Solution:</strong> Developed an internal interactive Power BI dashboard using Python for data preparation, enriched with custom HTML visuals, UI navigation, and color-coded drill-downs.<br><br><strong>Impact:</strong> The sales team can now instantly track the $33.4M target progress (48.5% achieved) and prioritize underperforming categories daily.',
+        ar: '<strong>الهدف:</strong> تحليل أداء مبيعات فرع ألف مسكن ومتابعة تحقيق التارجت.<br><br><strong>التحدي:</strong> داتا المبيعات الخام كانت محتاجة تتجهز وتترتب عشان توضح أداء كل فرد في التيم وأضعف الفئات البيعية.<br><br><strong>الحل التقني:</strong> جهزت الداتا بـ Python وبنيت داشبورد Power BI تفاعلية بتصميم UI مريح، واستخدمت Custom HTML Visuals وجداول متكودة بالألوان.<br><br><strong>النتيجة:</strong> الفريق بقى قادر يتابع تارجت الـ 33.4 مليون (المحقق 48.5%) يوم بيومه، ويعرفوا يركزوا مجهودهم فين بالظبط.'
       },
-      tools: ['Power BI', 'DAX', 'HTML visuals', 'UX design'],
+      tools: ['Power BI', 'DAX', 'Python', 'HTML/CSS visuals'],
       shots: [
         { src: 'dream-overview.png', t: { en: 'Overview — KPIs and team performance', ar: 'نظرة عامة — المؤشرات وأداء الفريق' } },
         { src: 'dream-sales.png', t: { en: 'Sales performance — filters and category table', ar: 'أداء المبيعات — فلاتر وجدول الفئات' } }
@@ -476,7 +476,7 @@
   function refreshModal() {
     var p = PROJECTS[cur.p], s = p.shots[cur.i], img = $('#mImg');
     $('#mTitle').textContent = tr(p.title);
-    $('#mDesc').textContent = tr(p.desc);
+    $('#mDesc').innerHTML = tr(p.desc);
     $('#mTools').innerHTML = p.tools.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('');
     $('#mCount').textContent = tr(s.t) + (p.shots.length > 1 ? '  ·  ' + (cur.i + 1) + ' / ' + p.shots.length : '');
     img.alt = tr(p.title) + ' — ' + tr(s.t);
