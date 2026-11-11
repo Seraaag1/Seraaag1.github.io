@@ -47,14 +47,14 @@
         { src: 'dream-sales.png', t: { en: 'Sales performance — filters and category table', ar: 'أداء المبيعات — فلاتر وجدول الفئات' } }
       ]
     },
-    {
+{
       id: 'amazon',
       cats: ['powerbi', 'python'],
       badge: { en: 'Power BI + Python', ar: 'Power BI + Python' },
       title: { en: 'Amazon Products BI Dashboard', ar: 'داشبورد منتجات أمازون' },
       desc: {
-        en: '1,000 real Amazon products cleaned with Python & Pandas, then visualised in a 4-page dark-themed Power BI report: Overview, Pricing, Products & Brands, Ratings & Reviews — 20+ KPIs and advanced DAX for discounts, ranking and competition.',
-        ar: '1000 منتج حقيقي من أمازون اتنضفوا بـ Python وPandas، وبعدها اتعرضوا في تقرير Power BI داكن من 4 صفحات: نظرة عامة، التسعير، المنتجات والعلامات، التقييمات والمراجعات — أكتر من 20 مؤشر وقياسات DAX متقدمة للخصومات والتصنيف والمنافسة.'
+        en: '<strong>Objective:</strong> Analyze 1,000 real Amazon products to uncover pricing strategies, brand performance, and customer satisfaction.<br><br><strong>Challenge:</strong> Processing and structuring raw e-commerce data to calculate complex metrics like discount impacts and competitor rankings.<br><br><strong>Solution:</strong> Performed extensive data cleaning and ETL using Python (Pandas), then designed a 4-page dark-themed Power BI report featuring over 20 KPIs and advanced DAX measures.<br><br><strong>Impact:</strong> Delivered actionable insights into product pricing and brand positioning through an intuitive, interactive interface.',
+        ar: '<strong>الهدف:</strong> تحليل 1000 منتج حقيقي من أمازون لاكتشاف استراتيجيات التسعير وأداء العلامات التجارية.<br><br><strong>التحدي:</strong> معالجة وهيكلة بيانات التجارة الإلكترونية الخام لحساب مقاييس معقدة زي تأثير الخصومات وتصنيف المنافسين.<br><br><strong>الحل التقني:</strong> نفذت عمليات تنظيف وبناء ETL باستخدام Python (Pandas)، وصممت تقرير Power BI داكن من 4 صفحات بيضم أكتر من 20 مؤشر (KPIs) ومعادلات DAX متقدمة.<br><br><strong>النتيجة:</strong> تقديم رؤى واضحة وقابلة للتنفيذ عن تسعير المنتجات ووضع العلامات التجارية من خلال واجهة تفاعلية سهلة الاستخدام.'
       },
       tools: ['Power BI', 'Python', 'Pandas', 'DAX', 'Power Query'],
       link: 'https://mostaql.com/portfolio/3512141-amazon-products-bi-dashboard',
@@ -71,8 +71,8 @@
       badge: { en: 'Telecom', ar: 'اتصالات' },
       title: { en: 'Telecom Customer Churn Dashboard', ar: 'داشبورد تسرب عملاء الاتصالات' },
       desc: {
-        en: 'Relational model and DAX over 7,043 customer records to find churn drivers. Month-to-month contracts were the biggest source of lost customers; an area chart maps monthly charges, tenure and churn, with demographic splits by gender and seniors.',
-        ar: 'نموذج بيانات علائقي ومعادلات DAX على 7,043 سجل عميل لاكتشاف أسباب التسرب. العقود الشهرية كانت أكبر مصدر لفقدان العملاء، ورسم Area بيوضح العلاقة بين المدفوعات الشهرية ومدة البقاء والتسرب، مع تقسيم ديموغرافي حسب الجنس وكبار السن.'
+        en: '<strong>Objective:</strong> Identify key drivers behind customer churn in a telecom dataset of 7,043 records.<br><br><strong>Challenge:</strong> Linking demographic data with contract types and billing history to isolate the exact factors causing customers to leave.<br><br><strong>Solution:</strong> Built a relational data model and utilized SQL and DAX to analyze variables. Visualized findings in Power BI, mapping monthly charges and tenure against churn rates with demographic breakdowns.<br><br><strong>Impact:</strong> Successfully pinpointed month-to-month contracts as the primary churn driver, providing the business with clear targets for retention strategies.',
+        ar: '<strong>الهدف:</strong> تحديد الأسباب الرئيسية وراء تسرب العملاء (Churn) من خلال تحليل 7,043 سجل لشركة اتصالات.<br><br><strong>التحدي:</strong> ربط البيانات الديموغرافية بأنواع العقود وتاريخ الفواتير لعزل العوامل الدقيقة اللي بتخلي العميل يلغي اشتراكه.<br><br><strong>الحل التقني:</strong> بنيت نموذج بيانات علائقي واستخدمت SQL و DAX لتحليل المتغيرات. صممت داشبورد بيوضح العلاقة بين المدفوعات الشهرية ومدة البقاء والتسرب مع تقسيمات ديموغرافية.<br><br><strong>النتيجة:</strong> تحديد دقيق للمشكلة (العقود الشهرية كانت أكبر مصدر لفقدان العملاء)، وده بيوفر للبيزنس أهداف واضحة لخطط الاحتفاظ بالعملاء.'
       },
       tools: ['Power BI', 'DAX', 'SQL', 'Data modeling'],
       link: 'https://mostaql.com/portfolio/3464637-customer-churn-dashboard',
@@ -86,8 +86,8 @@
       badge: { en: 'Retail', ar: 'تجزئة' },
       title: { en: 'Supermarket Sales Dashboard', ar: 'داشبورد مبيعات سوبر ماركت' },
       desc: {
-        en: '5,010 orders cleaned with Python, then a modern dark Power BI app with a custom sidebar for navigation: overview, sales, profit and loss pages that highlight best sellers, weak branches and customer / payment behaviour.',
-        ar: '5,010 طلب اتنضفوا بـ Python، وبعدها تطبيق Power BI داكن بقائمة جانبية مخصصة للتنقل: صفحات نظرة عامة، مبيعات، أرباح، وخسائر بتوضح الأكتر مبيعاً والفروع الضعيفة وسلوك العملاء وطرق الدفع.'
+        en: '<strong>Objective:</strong> Build a comprehensive sales, profit, and loss tracking system for a supermarket chain.<br><br><strong>Challenge:</strong> Handling 5,010 messy order records and designing an application-like dashboard that users can easily navigate without feeling overwhelmed by numbers.<br><br><strong>Solution:</strong> Cleaned the dataset using Python (Pandas/NumPy), then developed a modern, dark-themed Power BI app. Designed a custom sidebar for seamless navigation across Overview, Sales, and P&L pages.<br><br><strong>Impact:</strong> Enabled management to instantly spot best-selling products, identify underperforming branches, and understand customer payment behaviors.',
+        ar: '<strong>الهدف:</strong> بناء نظام متكامل لتتبع المبيعات، الأرباح، والخسائر لسلسلة سوبر ماركت.<br><br><strong>التحدي:</strong> التعامل مع 5,010 طلب غير منظم، وتصميم داشبورد بتجربة استخدام قريبة من التطبيقات عشان المستخدم ما يحسش بتكدس الأرقام.<br><br><strong>الحل التقني:</strong> نضفت البيانات باستخدام Python، وطورت تطبيق Power BI بتصميم داكن وحديث، مع برمجة قائمة جانبية (Sidebar) مخصصة للتنقل بين صفحات المبيعات والأرباح.<br><br><strong>النتيجة:</strong> تمكين الإدارة من اكتشاف المنتجات الأكتر مبيعاً، الفروع الضعيفة، وسلوك الدفع عند العملاء في ثواني.'
       },
       tools: ['Power BI', 'Python', 'Pandas', 'NumPy'],
       link: 'https://mostaql.com/portfolio/3035724-' + '%D8%AF%D8%A7%D8%B4%D8%A8%D9%88%D8%B1%D8%AF-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%B3%D9%88%D8%A8%D8%B1-%D9%85%D8%A7%D8%B1%D9%83%D8%AA-sales-dashboard',
@@ -104,8 +104,8 @@
       badge: { en: 'Python + ML', ar: 'Python + ML' },
       title: { en: 'COVID-19 Data Analysis & Forecast', ar: 'تحليل بيانات كورونا والتنبؤ' },
       desc: {
-        en: 'Full data-science cycle on Our World in Data: cleaning large data, EDA on vaccination and recovery, country comparisons (Egypt, Saudi Arabia, USA, Italy…), correlation between vaccination and new cases, a machine-learning forecast and a Power BI summary dashboard.',
-        ar: 'دورة علم بيانات كاملة على بيانات Our World in Data: تنظيف بيانات ضخمة، تحليل استكشافي للتطعيمات والتعافي، مقارنة بين دول (مصر والسعودية وأمريكا وإيطاليا…)، دراسة ارتباط التطعيم بانخفاض الحالات، نموذج تعلم آلي للتنبؤ، وداشبورد Power BI ملخص.'
+        en: '<strong>Objective:</strong> Perform a full data science lifecycle on global COVID-19 data to analyze trends and forecast future cases.<br><br><strong>Challenge:</strong> Managing massive datasets from \'Our World in Data\' and finding statistically significant correlations between vaccination rates and new infections.<br><br><strong>Solution:</strong> Executed data cleaning and Exploratory Data Analysis (EDA) in Python. Built a Machine Learning forecasting model and wrapped the findings into a Power BI summary dashboard.<br><br><strong>Impact:</strong> Delivered a clear statistical narrative showing the correlation between vaccinations and recovery rates, backed by predictive models and interactive visuals.',
+        ar: '<strong>الهدف:</strong> تنفيذ دورة علم بيانات كاملة على بيانات كورونا العالمية لتحليل الاتجاهات والتنبؤ بالحالات المستقبلية.<br><br><strong>التحدي:</strong> التعامل مع بيانات ضخمة من \'Our World in Data\' وإيجاد ارتباط إحصائي حقيقي بين معدلات التطعيم والإصابات الجديدة.<br><br><strong>الحل التقني:</strong> عملت تنظيف للبيانات وتحليل استكشافي (EDA) بـ Python، وبنيت نموذج Machine Learning للتنبؤ، ولخصت النتايج كلها في داشبورد Power BI للمقارنة بين الدول.<br><br><strong>النتيجة:</strong> تقديم قصة بيانات واضحة بتثبت تأثير التطعيم على معدلات التعافي، مدعومة بنماذج تنبؤ ورسوم تفاعلية.'
       },
       tools: ['Python', 'Pandas', 'NumPy', 'Machine Learning', 'Power BI'],
       link: 'https://mostaql.com/portfolio/3038294-' + '%D8%AA%D8%AD%D9%84%D9%8A%D9%84-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%81%D9%8A%D8%B1%D9%88%D8%B3-%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7-covid-19',
@@ -119,8 +119,8 @@
       badge: { en: 'Machine Learning', ar: 'تعلم آلي' },
       title: { en: 'Titanic Survival Prediction', ar: 'التنبؤ بنجاة ركاب تايتانيك' },
       desc: {
-        en: 'Exploratory analysis of Titanic passenger data and a machine-learning model that predicts survival, built end-to-end in Python.',
-        ar: 'تحليل استكشافي لبيانات ركاب تايتانيك ونموذج تعلم آلي بيتنبأ بالنجاة، متنفذ بالكامل بـ Python.'
+        en: '<strong>Objective:</strong> Predict passenger survival on the Titanic based on demographic and ticket data.<br><br><strong>Challenge:</strong> Dealing with missing values, feature engineering (like extracting titles from names), and selecting the right classification algorithm.<br><br><strong>Solution:</strong> Conducted end-to-end Exploratory Data Analysis (EDA) in Python to uncover survival trends, followed by training and evaluating a Machine Learning classification model.<br><br><strong>Impact:</strong> Created a highly accurate predictive model that clearly demonstrates the impact of factors like gender, class, and age on survival chances.',
+        ar: '<strong>الهدف:</strong> التنبؤ بنجاة ركاب سفينة تايتانيك بناءً على البيانات الديموغرافية وتفاصيل التذاكر.<br><br><strong>التحدي:</strong> التعامل مع البيانات المفقودة، هندسة الميزات (Feature Engineering زي استخراج الألقاب من الأسماء)، واختيار خوارزمية التصنيف المناسبة.<br><br><strong>الحل التقني:</strong> عملت تحليل بيانات استكشافي (EDA) متكامل بـ Python لاكتشاف أنماط النجاة، وبعدها دربت واختبرت نموذج تعلم آلي (Machine Learning).<br><br><strong>النتيجة:</strong> بناء نموذج تنبؤ دقيق بيوضح تأثير عوامل زي الجنس، الدرجة، والعمر على فرص النجاة بشكل علمي ومدروس.'
       },
       tools: ['Python', 'Pandas', 'Machine Learning'],
       link: encodeURI('https://mostaql.com/portfolio/3035753-تحليل-بيانات-ركاب-سفينة-تايتانيك-وبناء-نموذج-ذكاء-اصطناعي-للتنبؤ-بالنجاة-python-ml'),
