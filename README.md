@@ -73,6 +73,6 @@ This repo is the source of my portfolio website, built with plain HTML, CSS and 
 
 <div align="center">
 
-**محلل بيانات ومطوّر ذكاء أعمال · أسيوط، مصر**
+**Data Analyst and BI Developer**
 
 </div>
