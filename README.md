@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="profile.jpg" alt="Ahmed Serag Eldin" width="120" height="120" style="border-radius:50%">
-
 # Ahmed Serag Eldin
 ### Data Analyst & BI Developer
 
