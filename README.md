@@ -5,9 +5,15 @@
 
 Turning raw, messy data into clean pipelines and dashboards that teams actually use.
 
-[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-seraaag1.github.io-06b6d4?style=for-the-badge&logo=github&logoColor=white)](https://seraaag1.github.io)
+<br>
+
+### 🌐 [**👉 Click Here to View My Live Interactive Portfolio 👈**](https://seraaag1.github.io) 🌐
+
+<br>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmed--serag11-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-serag11/)
 [![Mostaql](https://img.shields.io/badge/Mostaql-Seraagg-2386c8?style=for-the-badge)](https://mostaql.com/u/Seraagg)
+[![GitHub](https://img.shields.io/badge/GitHub-Seraaag1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Seraaag1)
 
 </div>
 
