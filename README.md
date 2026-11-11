@@ -40,18 +40,13 @@ I spent a summer inside a retail sales team, so I build dashboards around the qu
 
 | Project | What it does | Tools |
 |---|---|---|
-| **LUSTER — Inventory & Consumption** | Five-page dashboard tracking film rolls: stock levels, low-stock and finished rolls, stagnant inventory ageing, usage per job order | Power BI, DAX, Excel |
-| **Alf Maskan Branch — Retail Performance** | Branch target vs achieved, team ranking and category drill-down, built during my summer training with a retail sales team | Power BI, DAX |
-| [**Amazon Products BI Dashboard**](https://mostaql.com/portfolio/3512141-amazon-products-bi-dashboard) | 1,000 products cleaned with Python, 4-page report covering pricing, brands and ratings with 20+ KPIs | Power BI, Python, DAX |
-| [**Telecom Customer Churn**](https://mostaql.com/portfolio/3464637-customer-churn-dashboard) | Finds churn drivers across 7,043 customers: contract type, tenure and charges | Power BI, DAX, SQL |
-| **Supermarket Sales Dashboard** | 5,010 orders analysed with an app-style dark UI and custom navigation | Power BI, Python |
-| **COVID-19 Analysis & Forecast** | Full data-science cycle on Our World in Data, with a machine-learning forecast | Python, ML, Power BI |
-| **Titanic Survival Prediction** | Exploratory analysis and a model that predicts survival | Python, ML |
-
-<p align="center">
-  <img src="luster-overview.png" alt="LUSTER dashboard overview" width="48%">
-  <img src="dream-overview.png" alt="Retail performance dashboard" width="48%">
-</p>
+| [LUSTER — Inventory & Consumption](https://lnkd.in/p/eNwHiZ2E) | Five-page dashboard tracking film rolls: stock levels, low-stock and finished rolls, stagnant inventory ageing, usage per job order | Power BI, DAX, Excel |
+| [Alf Maskan Branch — Retail Performance](https://lnkd.in/p/eh_mEwC8) | Branch target vs achieved, team ranking and category drill-down, built during my summer training with a retail sales team | Power BI, DAX |
+| [Amazon Products BI Dashboard](https://mostaql.com/portfolio/3512141-amazon-products-bi-dashboard) | 1,000 products cleaned with Python, 4-page report covering pricing, brands and ratings with 20+ KPIs | Power BI, Python, DAX |
+| [Telecom Customer Churn](https://mostaql.com/portfolio/3464637-customer-churn-dashboard) | Finds churn drivers across 7,043 customers: contract type, tenure and charges | Power BI, DAX, SQL |
+| [Supermarket Sales Dashboard](https://mostaql.com/portfolio/3035724-sales-dashboard) | 5,010 orders analysed with an app-style dark UI and custom navigation | Power BI, Python |
+| [COVID-19 Analysis & Forecast](https://mostaql.com/portfolio/3038294-covid-19) | Full data-science cycle on Our World in Data, with a machine-learning forecast | Python, ML, Power BI |
+| [Titanic Survival Prediction](https://mostaql.com/portfolio/3035753-python-ml) | Exploratory analysis and a model that predicts survival | Python, ML |
 
 ## Experience
 
