@@ -278,7 +278,7 @@
         '<div class="card__img"><img alt="" loading="lazy" decoding="async"><div class="card__ph" aria-hidden="true">📊</div>' +
         '<span class="card__badge">' + esc(tr(p.badge)) + '</span>' +
         (n > 1 ? '<span class="card__count">' + n + ' ' + T('shots') + '</span>' : '') + '</div>' +
-        '<div class="card__body"><h3>' + esc(tr(p.title)) + '</h3><p>' + esc(tr(p.desc)) + '</p>' +
+        '<div class="card__body"><h3>' + esc(tr(p.title)) + '</h3><p>' + esc(tr(p.desc).replace(/<[^>]+>/g, ' ')) + '</p>' +
         '<ul class="pills">' + p.tools.slice(0, 4).map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>' +
         '<span class="card__more">' + T('view') + ' <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="flip"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></article>';
     }).join('');
